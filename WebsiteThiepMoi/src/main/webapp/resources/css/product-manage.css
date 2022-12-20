@@ -1,0 +1,120 @@
+table, th, td {
+	border: 1px solid rgb(224, 224, 224);
+	border-collapse: collapse;
+}
+
+table {
+	width: 100%;
+}
+
+th, td {
+	text-align: center;
+	vertical-align: center;
+	padding: 5px;
+	min-width: 100px;
+	max-width: 500px;
+}
+
+td {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+tr th {
+	background-color: #22f1be;
+	color: white;
+	font-weight: 600;
+}
+
+tr:nth-child(even) {
+	background-color: #d9f0eb;
+}
+
+.img-product-table {
+	height: 100px;
+	width: 100px;
+}
+
+.add-button {
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	background-color: #22f1be;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	transition: 0.2s;
+}
+
+.add-button:hover {
+	background-color: #22f1bd86;
+}
+
+.btn-action {
+	display: inline-block;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+	border-radius: 5px;
+	width: 70px;
+	line-height: 25px;
+	text-align: center;
+	height: 25px;
+	margin: 5px 3px;
+	transition: 0.2s;
+}
+
+.btn-action.update {
+	background-color: #00e7ff;
+}
+
+.btn-action.update:hover {
+	background-color: rgba(0, 255, 255, 0.432);
+}
+
+.btn-action.delete {
+	background-color: #ef3838;
+}
+
+.btn-action.delete:hover {
+	background-color: rgba(255, 0, 0, 0.432);
+}
+
+.btn-action-detail {
+	display: block;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+	border-radius: 5px;
+	width: 150px;
+	line-height: 25px;
+	text-align: center;
+	height: 25px;
+	margin: 5px auto;
+	transition: 0.2s;
+	background-color: #88ebb9;
+	transition: 0.2s;
+}
+
+.btn-action-detail:hover {
+	background-color: #b8ffdb;
+}
+
+.product-manage-body {
+	margin: 30px 15px;
+}
+
+.page_title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-left: 15px;
+}

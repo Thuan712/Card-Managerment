@@ -1,0 +1,439 @@
+
+  .Contact {
+            max-width: 500px;
+            padding: 10px 20px;
+            background: #f4f7f8;
+            margin: 10px auto;
+            padding: 20px;
+            background: #f4f7f8;
+            border-radius: 8px;
+        }
+        
+        .Contact fieldset {
+            border: none;
+        }
+        
+        .Contact legend {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        
+        .Contact label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .Contact input[type="text"],
+        .Contact input[type="date"],
+        .Contact input[type="tel"],
+        .Contact input[type="file"],
+        .Contact input[type="datetime"],
+        .Contact input[type="email"],
+        .Contact input[type="number"],
+        .Contact input[type="search"],
+        .Contact input[type="time"],
+        .Contact input[type="url"],
+        .Contact textarea,
+        .Contact select {
+            background: rgba(255, 255, 255, .1);
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            margin: 0;
+            outline: 0;
+            padding: 7px;
+            width: 100%;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            background-color: #e8eeef;
+            color: #8a97a0;
+            -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+            margin-bottom: 30px;
+        }
+        
+        .Contact input[type="text"]:focus,
+        .Contact input[type="date"]:focus,
+        .Contact input[type="tel"]:focus,
+        .Contact input[type="datetime"]:focus,
+        .Contact input[type="email"]:focus,
+        .Contact input[type="number"]:focus,
+        .Contact input[type="search"]:focus,
+        .Contact input[type="time"]:focus,
+        .Contact input[type="url"]:focus,
+        .Contact textarea:focus,
+        .Contact select:focus {
+            background: #d2d9dd;
+        }
+        
+        .Contact select {
+            -webkit-appearance: menulist-button;
+            height: 35px;
+        }
+        
+        .Contact .number {
+            background: #1abc9c;
+            color: #fff;
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+            font-size: 0.8em;
+            margin-right: 4px;
+            line-height: 30px;
+            text-align: center;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+            border-radius: 15px 15px 15px 0px;
+        }
+        /* Css button */
+        
+        .Contact input[type="submit"],
+        .Contact input[type="button"] {
+            position: relative;
+            display: block;
+            padding: 19px 39px 18px 39px;
+            color: #FFF;
+            margin: 0 auto;
+            background: #1abc9c;
+            font-size: 18px;
+            text-align: center;
+            font-style: normal;
+            width: 100%;
+            border: 1px solid #16a085;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+        }
+        
+        .Contact input[type="submit"]:hover,
+        .Contact input[type="button"]:hover {
+            background: #109177;
+        }
+        /* Css thông báo gửi thành công */
+        
+        .success {
+            padding: 14px 23px;
+            margin-bottom: 10px;
+            background: #ff8c10;
+            border: 1px solid #222222;
+            font-size: 16px;
+            font-family: Arial, Helvetica, Sans Serif;
+            text-align: center;
+            color: white;
+        }
+       .wrapper {
+    height:600px;
+    width: 1002px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-img {
+    float: left;
+    height: 600px;
+    width: 500px;
+  }
+  
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+  
+  .product-info {
+    float: left;
+    height: 600px;
+    width: 500px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+  }
+  
+  .product-text {
+    height: 300px;
+    width: 400px;
+  }
+  .product{
+    padding-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 0 0 38px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #474747;
+    
+  }
+  .product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 10px;
+    font-size: 34px;
+    color: #474747;
+  }
+  .product-text h3 {
+    margin: 0 0 0 38px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: #d2d2d2;
+  }
+  
+  .product-text h1,
+  .product-price-btn p {
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .product-text h2 {
+    margin: 0 0 10px 38px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+  }
+  
+  .product-text p {
+    
+    margin: 0 0 0 38px;
+    font-family: 'Quicksand', sans-serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 20px;
+    font-weight: lighter;
+    overflow: hidden;
+  }
+  
+  .product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 40px;
+    position: relative;
+  }
+  
+  .product-price-btn p {
+    margin: 0 0 0 38px;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+  
+  .product-price-btn button {
+    float: right;
+    display: inline-block;
+    height: 60px;
+    width: 180px;
+    margin: 0 80px 0 0px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .product-price-btn button:hover {
+    background-color: #79b0a1;
+  }
+  .rate {
+    float: left;
+   
+    padding: 0 10px 0 20px;
+    margin: 0 0 0 38px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float: right;
+    width: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color:#ccc;
+  margin-bottom: 0;
+  line-height: 21px;
+}
+.rate:not(:checked) > label:before {
+    content: '\2605';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+/* Css chi tiet */
+
+.wrapper {
+    height:700px;
+    width: 1002px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-img {
+    float: left;
+    height: 700px;
+    width: 500px;
+  }
+  
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+  
+  .product-info {
+    float: left;
+    height: 700px;
+    width: 500px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+  }
+  
+  .product-text {
+    height: 300px;
+    width: 400px;
+  }
+  .product{
+    padding-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 0 0 38px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #474747;
+    
+  }
+  .product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 10px;
+    font-size: 34px;
+    color: #474747;
+  }
+  .product-text h3 {
+    margin: 0 0 0 38px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: #d2d2d2;
+  }
+  
+  .product-text h1,
+  .product-price-btn p {
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .product-text h2 {
+    margin: 0 0 10px 38px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+  }
+  
+  .product-text p {
+    
+    margin: 0 0 0 38px;
+    font-family: 'Quicksand', sans-serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 20px;
+    font-weight: lighter;
+    overflow: hidden;
+  }
+  
+  .product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 40px;
+    position: relative;
+  }
+  
+  .product-price-btn p {
+    margin: 0 0 0 38px;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+  
+  .product-price-btn button {
+    float: right;
+    display: inline-block;
+    height: 60px;
+    width: 180px;
+    margin: 0 80px 0 0px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .product-price-btn button:hover {
+    background-color: #79b0a1;
+  }
+  .rate {
+    float: left;
+   
+    padding: 0 10px 0 20px;
+    margin: 0 0 0 38px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float: right;
+    width: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color:#ccc;
+  margin-bottom: 0;
+  line-height: 21px;
+}
+.rate:not(:checked) > label:before {
+    content: '\2605';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+      

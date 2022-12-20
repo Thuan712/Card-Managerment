@@ -1,0 +1,141 @@
+.article{
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+}
+.left{
+	width: 45%; 
+	float: right;
+	border: 1px solid #9cd6c8;
+	border-radius:10px;
+	padding: 20px;
+	
+}
+.right{	
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+}
+H3{
+	margin-bottom: 20px;
+}
+label{
+	font-weight: 500;
+}
+
+#verticalLine {
+    border-left: 1px solid #dbd6d6;
+}
+.table>th,td{
+    padding: 8px;
+    text-align: center;
+}
+.table>th{
+    text-transform: uppercase;
+}
+.table{
+	width:100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-qty {
+    background-color:#fff;
+    text-align:center;
+    border-radius: 5px;
+}
+.btn-payment,.btn-Luu,.btn-QL,.btn-dh,.btn-home{
+	margin-top:20px;
+    width: 80%;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #9cd6c8;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.btn-QL, .btn-home{
+	text-decoration: none;	
+	 background-color: #ff8080;
+}
+.btn-dh{
+	text-decoration: none;	
+}
+.btn-home:hover{
+	display:inline;
+	background-color: #fe4738;
+}
+.btn-Luu{
+	width:100%;
+}
+.btn-Luu:hover {
+	background-color: #7eb9ab;
+}
+.btn-dh:hover {
+	background-color: #7eb9ab;
+}
+.btn-payment:hover {
+	background-color: #7eb9ab;
+}
+.product-form{
+	width: 40%;
+	margin: 0 auto;
+	padding: 0;	
+	margin-bottom: 20px;
+	margin-top:20px;
+	border: 1px solid #9cd6c8;
+	border-radius:10px;
+	padding: 30px;
+}
+.form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.styleA{
+	display:inline-block;
+	text-decoration: none;
+}
+.styleAA {
+  float: right;
+  display: inline-block;
+  text-align:center;
+  padding:20px;
+  width: 180px;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #9cebd5;
+  cursor: pointer;
+  outline: none;
+}
+.styleAA:hover {
+	background-color: #79b0a1;
+}
+.img_out{
+	width: 300px;
+	height: 300px;
+}
+.error-message {
+	display:inline-block;
+	margin-bottom:20px;
+    color: red;
+    font-style: italic;
+}
+
