@@ -2,6 +2,8 @@
 A card managerment application created with Java Spring and Servlet
 ## Requirements 🔧
 Java version 8 or higher.
+Tomcat Server 9.0
+Microsoft SQL Server 2019
 ## Installation 🔌
 1. Press the Fork button (top right the page) to save copy of this project on your account.
 
