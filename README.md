@@ -1,5 +1,8 @@
 # CARD MANGERMENT
 A card managerment application created with Java Spring and Servlet
+## Screenshot
+![image](https://user-images.githubusercontent.com/89012916/209628359-e782c920-5f42-4f50-b28f-67a0d0a5d14f.png)
+
 ## Requirements 🔧
 Java version 8 or higher.
 
